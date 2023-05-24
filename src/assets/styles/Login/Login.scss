@@ -1,0 +1,75 @@
+#dark {
+  .login-logo img{
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+
+  .login-form-button {
+    background: #3b03d0a8;
+  }
+
+  #login-card {
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #3b03d0a8;
+      border-color: #3b03d0a8;
+    }
+
+    .login-form-forgot-password {
+      color: #3b03d0a8;
+    }
+  }
+}
+
+.card-wrapper {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.card-wrapper {
+  .ant-card-head {
+    border-color: #ffffff;
+  }
+}
+
+.login-row {
+  background: rgba(0, 119, 183, 0.7); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(213, 238, 255, 0.7), rgba(0, 119, 183, 0.7)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(213, 238, 255, 0.7), rgba(0, 119, 183, 0.7));
+}
+
+.login-logo {
+  text-align: center;
+}
+
+.login-title {
+  text-align: center;
+  margin: 0px;
+  color: #3b03d0a8;
+}
+
+.login-row {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.login-column {
+  min-height: 30vh;
+}
+
+#login-card {
+  display: flex;
+  justify-content: center;
+}
+
+#custom-shape {
+  width: 300px;
+  height: 250px;
+  background: #3b03d0a8;
+  border-radius: 35% 65% 70% 30%/30% 30% 70% 70%;
+  position: absolute;
+  top: -110px;
+  left: -50px;
+  transform: rotate(145deg);
+}
